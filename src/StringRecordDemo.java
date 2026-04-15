@@ -5,7 +5,10 @@ public class StringRecordDemo {
         System.out.println(str);
         System.out.println(str.trim());
 
+        String name1 ="IBTISAM";
+        String name2 = "ibtisam";
 
+        System.out.println(name1.equalsIgnoreCase(name2));
 
 
 
