@@ -6,6 +6,12 @@ public class StringWhileDemo {
         System.out.println(str.length());
         int count = 0;
 
+        while (count < str.length()){
 
+            System.out.println(str.charAt(count));
+            if (str.charAt(count) == ' ' ){
+
+            }
+        }
     }
 }
