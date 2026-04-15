@@ -5,8 +5,9 @@ public class StringLoopDemo {
 
         System.out.println(str.length());
 
+        int count = 0;
         for (int i=0; i<str.length();i++){
-            System.out.println(str);
+            System.out.println(str.charAt(i));
         }
 
     }
