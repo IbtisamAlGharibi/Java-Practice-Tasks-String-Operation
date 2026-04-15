@@ -9,6 +9,7 @@ public class StringValidationDemo {
         System.out.println(str.replace("I","i"));
         System.out.println(str.substring(0,3));
 
+        System.out.println(str.length());
 
 
     }
