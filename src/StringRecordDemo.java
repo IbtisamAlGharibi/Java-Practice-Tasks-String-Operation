@@ -13,6 +13,9 @@ public class StringRecordDemo {
         System.out.println(str.split(""));
         String emp = "";
 
+        System.out.println(str.isEmpty());
+        System.out.println(str.charAt(3));
+
 
     }
 }
