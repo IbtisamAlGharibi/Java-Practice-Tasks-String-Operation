@@ -10,6 +10,13 @@ public class StringProcessDemo {
         System.out.println(str.trim());
         System.out.println(str.split(""));
 
+        String[] array = str.split("");
+        for (int i = 0; i<array.length-1;i++){
+            System.out.println(array[i]);
+        }
+
+
+
 
 
 
