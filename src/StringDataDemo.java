@@ -10,7 +10,7 @@ public class StringDataDemo {
         System.out.println(str.indexOf(6));
         System.out.println(str.substring(2,6));
 
-        System.out.println(str.contains("tasks"));
+        System.out.println(str.contains("solving"));
 
 
 
