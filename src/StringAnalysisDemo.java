@@ -6,6 +6,11 @@ public class StringAnalysisDemo {
 
         System.out.println(str.length());
 
+        String str2 = "ANfal";
+        System.out.println(str.equals(str2));
+
+
+
 
     }
 }
