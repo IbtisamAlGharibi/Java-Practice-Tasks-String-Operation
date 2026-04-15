@@ -9,6 +9,11 @@ public class StringCheckDemo {
         boolean check = str.contains("my");
         System.out.println(check);
 
+        System.out.println(str.charAt(6));
+        String str2 = "Some Tasks are not completed";
+        System.out.println(str2.toUpperCase());
+
+
     }
 
 }
