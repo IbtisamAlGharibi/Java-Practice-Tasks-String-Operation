@@ -20,6 +20,9 @@ public class StringProcessDemo {
 
         System.out.println(name1.equalsIgnoreCase(name2));
 
+        System.out.println(str.isEmpty());
+
+
 
 
 
