@@ -1,10 +1,15 @@
 public class StringCompareDemo {
     public static void main(String[] args){
 
-        String str = "sample";
+        String str = "Ibtisam";
         System.out.println(str);
 
         System.out.println(str.charAt(2));
+        System.out.println(str.substring(0,3));
+
+       String str2 = "Anfal";
+       System.out.println(str.equals(str2));
+
 
     }
 }
