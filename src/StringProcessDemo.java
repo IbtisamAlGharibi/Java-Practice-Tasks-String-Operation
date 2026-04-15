@@ -15,6 +15,13 @@ public class StringProcessDemo {
             System.out.println(array[i]);
         }
 
+        String name1 ="IBTISAM";
+        String name2 = "ibtisam";
+
+        System.out.println(name1.equalsIgnoreCase(name2));
+
+
+
 
 
 
