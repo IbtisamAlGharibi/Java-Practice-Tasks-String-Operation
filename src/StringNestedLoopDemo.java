@@ -9,6 +9,20 @@ public class StringNestedLoopDemo {
         System.out.println(str.length());
         System.out.println(str2.length());
 
+        int count = 0;
+
+
+        for (int i = 0; i < str.length(); i++) {
+
+            for (int j = 0; j < str2.length(); j++) {
+
+                if (str.charAt(i) == str2.charAt(j)) {
+                    System.out.println(str.charAt(i));
+                    count++;
+                }
+            }
+        }
+
 
 
     }
