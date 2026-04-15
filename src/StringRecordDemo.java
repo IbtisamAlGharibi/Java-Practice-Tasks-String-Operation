@@ -10,6 +10,8 @@ public class StringRecordDemo {
 
         System.out.println(name1.equalsIgnoreCase(name2));
 
+        System.out.println(str.split(""));
+        String emp = "";
 
 
     }
