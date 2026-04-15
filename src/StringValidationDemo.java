@@ -6,5 +6,10 @@ public class StringValidationDemo {
         System.out.println(str.startsWith("I"));
         System.out.println(str.endsWith("a"));
 
+        System.out.println(str.replace("I","i"));
+        System.out.println(str.substring(0,3));
+
+
+
     }
 }
