@@ -9,6 +9,8 @@ public class StringModifyDemo {
 
         boolean check = str.contains("my");
         System.out.println(check);
+        System.out.println(str.replace("regularly","patiently"));
+
 
 
 
