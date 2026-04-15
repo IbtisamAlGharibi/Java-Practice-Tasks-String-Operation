@@ -8,6 +8,9 @@ public class StringOperationsDemo {
         System.out.println(customerName.toUpperCase());
         System.out.println(customerName.toLowerCase());
 
+        String companyName = "Codeline";
+        System.out.println("name:" + customerName + " "+ "company:" + companyName);
+
 
 
     }
