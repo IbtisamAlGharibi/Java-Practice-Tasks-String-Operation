@@ -6,6 +6,10 @@ public class StringPositionDemo {
         int mid = str.indexOf(3);
         System.out.println(mid);
 
+        System.out.println(str.startsWith("I"));
+        System.out.println(str.endsWith("n"));
+
+
 
 
 
