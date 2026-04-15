@@ -5,7 +5,9 @@ public class StringCheckDemo {
 
         System.out.println(str.substring(2,6));
 
-
+        System.out.println(str.replace("regularly","patiently"));
+        boolean check = str.contains("my");
+        System.out.println(check);
 
     }
 
