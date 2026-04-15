@@ -7,6 +7,11 @@ public class StringDataDemo {
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
 
+        System.out.println(str.indexOf(6));
+        System.out.println(str.substring(2,6));
+
+
+
 
     }
 }
