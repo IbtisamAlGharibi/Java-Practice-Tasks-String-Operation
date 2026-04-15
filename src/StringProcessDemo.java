@@ -7,6 +7,10 @@ public class StringProcessDemo {
         String str = "001,Ibtisam,It  ";
         System.out.println(str);
 
+        System.out.println(str.trim());
+        System.out.println(str.split(""));
+
+
 
 
     }
