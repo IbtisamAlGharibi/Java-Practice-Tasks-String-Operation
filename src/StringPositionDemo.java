@@ -7,7 +7,7 @@ public class StringPositionDemo {
         System.out.println(mid);
 
         System.out.println(str.startsWith("I"));
-        System.out.println(str.endsWith("n"));
+        System.out.println(str.endsWith("a"));
 
 
 
