@@ -22,7 +22,25 @@ public class StringNestedLoopDemo {
                 }
             }
         }
+        String word = "java";
+        String word2 = "data";
 
+        System.out.println(word);
+        System.out.println(word2);
+
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = 0; j < word2.length(); j++) {
+
+                char ch = word.charAt(i);
+                char ch2 = word2.charAt(j);
+
+                if (ch == ch2) {
+                    System.out.println(ch + " == " + ch2 + " (match)");
+                } else {
+                    System.out.println(ch + " != " + ch2);
+                }
+            }
+        }
 
 
     }
