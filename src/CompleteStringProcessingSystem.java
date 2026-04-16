@@ -20,9 +20,21 @@ public class CompleteStringProcessingSystem {
         String str = scan.next();
         System.out.println(text.equalsIgnoreCase(str));
 
+        System.out.println(text.charAt(0));
+
+        int count =0;
+        for (int i=0; i<text.length();i++){
+            if (text.charAt(i) == 'o' || text.charAt(i) == 'a' || text.charAt(i) == 'u'
+                    || text.charAt(i) == 'e' || text.charAt(i) == 'i'){
+                count =+1;}
+            System.out.println(text.charAt(i));
+        }
+
+        System.out.println(count);
 
 
 
 
-}}
+
+    }}
 
