@@ -12,6 +12,10 @@ public class CompleteStringProcessingSystem {
         System.out.println(text.toLowerCase());
 
 
+        System.out.println("Please enter a word you want to check if its in string");
+        String word = scan.next();
+        System.out.println(text.contains(word));
+
 
 
 }}
