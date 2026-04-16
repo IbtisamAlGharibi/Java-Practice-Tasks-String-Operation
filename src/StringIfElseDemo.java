@@ -18,9 +18,16 @@ public class StringIfElseDemo {
 
         if (password == target){
             System.out.println("Password correct you can enter!");
-        }else {
+        } else if (userName ==" ") {
+            System.out.println("user name is empty");
+        } else if (userName.contains("I")) {
+            System.out.println("user name contains I");
+
+        } else {
             System.out.println("Wrong password, please try again!");
         }
+
+        
 
     }
 }
