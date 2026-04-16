@@ -19,5 +19,14 @@ public class StringAnalysisSystem {
         String str = scan4.next();
         System.out.println(text.equalsIgnoreCase(str));
 
+        System.out.println(text.charAt(3));
+
+        if (text.length() > 10){
+            System.out.println("text is greater than 10");
+        }else {
+
+            System.out.println("text is less than 10");
+        }
+
     }}
 
