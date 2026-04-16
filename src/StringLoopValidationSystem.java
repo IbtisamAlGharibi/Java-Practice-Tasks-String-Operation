@@ -16,5 +16,10 @@ public class StringLoopValidationSystem {
 
         }
 
+        System.out.println(count);
+
+        System.out.println("Please enter a word you want to check if its in string");
+        String word = scan.next();
+        System.out.println(text.contains(word));
 
     }}
