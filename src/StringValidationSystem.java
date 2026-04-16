@@ -23,5 +23,11 @@ public class StringValidationSystem {
 
         System.out.println(text.substring(0,2));
 
+        if (text.length() > 5){
+           System.out.println("text is greater than 5");
+        }else {
+
+            System.out.println("text is less than 5");
+        }
 
     }}
