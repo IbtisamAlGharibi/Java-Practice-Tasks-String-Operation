@@ -8,6 +8,11 @@ public class CompleteStringProcessingSystem {
         String text = scan.next();
         System.out.println(text.length());
 
+        System.out.println(text.toUpperCase());
+        System.out.println(text.toLowerCase());
+
+
+
 
 }}
 
