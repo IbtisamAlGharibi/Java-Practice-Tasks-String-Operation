@@ -17,6 +17,14 @@ public class StringSearchModifySystem {
         String newRep = scan3.next();
         System.out.println(text.replace(rep,newRep));
 
+        System.out.println(text.substring(0,3));
+        System.out.println(text.charAt(3));
 
+        if (text.length() > 8){
+            System.out.println("text is greater than 8");
+        }else {
+
+            System.out.println("text is less than 8");
+        }
 
     }}
