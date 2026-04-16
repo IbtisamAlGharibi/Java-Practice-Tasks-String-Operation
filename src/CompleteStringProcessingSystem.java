@@ -32,6 +32,13 @@ public class CompleteStringProcessingSystem {
 
         System.out.println(count);
 
+        if (text.length() > 10){
+            System.out.println("text is greater than 10");
+        }else {
+
+            System.out.println("text is less than 10");
+        }
+
 
 
 
