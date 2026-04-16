@@ -16,4 +16,9 @@ public class StringValidationSystem {
         System.out.println(text.contains(word));
 
 
+        System.out.println("Please enter a string you want to compare with");
+        Scanner scan4 = new Scanner(System.in);
+        String str = scan4.next();
+        System.out.println(text.equalsIgnoreCase(str));
+
     }}
