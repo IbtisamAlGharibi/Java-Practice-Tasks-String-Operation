@@ -22,6 +22,12 @@ public class StringCompareValidateSystem {
         String end = scan4.next();
         System.out.println(text.endsWith(end));
 
+        if (text.length() > 8){
+            System.out.println("text is greater than 8");
+        }else {
+
+            System.out.println("text is less than 8");
+        }
 
     }}
 
