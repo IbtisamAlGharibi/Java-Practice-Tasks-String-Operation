@@ -13,5 +13,11 @@ public class StringCompareValidateSystem {
         String str = scan4.next();
         System.out.println(text.equals(str));
 
+        System.out.println("Please enter a value that you want to check if the text starts with");
+        String start = scan4.next();
+        System.out.println(text.startsWith(start));
+
+
+
     }}
 
