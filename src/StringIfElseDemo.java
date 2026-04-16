@@ -13,5 +13,10 @@ public class StringIfElseDemo {
             System.out.println("user name is too short");
         }
 
+        String password = "Abc123";
+        String target = "abc1234";
+
+
+
     }
 }
