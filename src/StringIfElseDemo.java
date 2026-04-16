@@ -16,7 +16,11 @@ public class StringIfElseDemo {
         String password = "Abc123";
         String target = "abc1234";
 
-
+        if (password == target){
+            System.out.println("Password correct you can enter!");
+        }else {
+            System.out.println("Wrong password, please try again!");
+        }
 
     }
 }
