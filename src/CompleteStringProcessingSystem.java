@@ -16,6 +16,12 @@ public class CompleteStringProcessingSystem {
         String word = scan.next();
         System.out.println(text.contains(word));
 
+        System.out.println("Please enter a string you want to compare with");
+        String str = scan.next();
+        System.out.println(text.equalsIgnoreCase(str));
+
+
+
 
 
 }}
