@@ -9,5 +9,10 @@ public class StringAnalysisSystem {
 
         System.out.println(text.length());
 
+        System.out.println("Please enter a word you want to check if its in string");
+        Scanner scan3 = new Scanner(System.in);
+        String word = scan3.next();
+        System.out.println(text.contains(word));
+
     }}
 
