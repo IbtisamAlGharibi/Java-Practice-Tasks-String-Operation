@@ -7,5 +7,14 @@ public class StringLoopValidationSystem {
         String text = scan.next();
 
         System.out.println(text.length());
+        int count =0;
+        for (int i=0; i<text.length();i++){
+            if (text.charAt(i) == 'o' || text.charAt(i) == 'a' || text.charAt(i) == 'u'
+                    || text.charAt(i) == 'e' || text.charAt(i) == 'i'){
+                count =+1;}
+            System.out.println(text.charAt(i));
 
-}}
+        }
+
+
+    }}
