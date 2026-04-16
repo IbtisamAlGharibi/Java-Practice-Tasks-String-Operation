@@ -17,7 +17,7 @@ public class StringReverseDemo {
         }
 
         for (int i=0; i<str.length();i++){
-            if (str.charAt(i) == 'l'){
+            if (str.charAt(i) == 'g'){
                 count=+1;
 
             }
