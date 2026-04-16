@@ -18,6 +18,10 @@ public class StringCompareValidateSystem {
         System.out.println(text.startsWith(start));
 
 
+        System.out.println("Please enter a value that you want to check if the text ends with");
+        String end = scan4.next();
+        System.out.println(text.endsWith(end));
+
 
     }}
 
