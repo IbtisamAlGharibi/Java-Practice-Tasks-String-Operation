@@ -21,4 +21,7 @@ public class StringValidationSystem {
         String str = scan4.next();
         System.out.println(text.equalsIgnoreCase(str));
 
+        System.out.println(text.substring(0,2));
+
+
     }}
